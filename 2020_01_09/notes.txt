@@ -1,0 +1,150 @@
+// DECISION MAKING OR CONDITIONAL STATEMENTS //
+-=============================================-
+
+There are four types of control statements:
+  i] if statement
+ ii] switch statement
+iii] conditional operator statement
+ iv] goto stetement
+
+
+SIMPLE IF STATEMENT
+===================
+       __>_____________test expression
+      |                      |
+if (b != 0)                 true
+{       |----------<---------|
+    c = a / b;
+}
+printf("\n");
+
+Example:
+--------
+int main()
+{
+    int a, b;
+    int c = 0;
+    scanf("%d %d", &a, &b);
+    if (b != 0)
+    {
+        c = a / b;
+        printf("b is not zero\n");
+    }
+    printf("%d\n", c);
+    return 0;
+}
+
+1) Inputs: 4 2
+   Output: 2
+           b is not zero
+
+2) Inputs: 4 0
+   Output: 0
+
+
+IF...ELSE STATEMENT
+===================
+     if (test_expression)
+     {
+true    statements...
+     }
+     else
+     {
+false   statements...
+     }
+---> statements
+
+Example:
+--------
+int main()
+{
+    int a, b, c;
+
+    scanf("%d %d", &a, &b);
+    if (b != 0)
+    {
+        printf("Divisible\n");
+        c = a / b;
+    }
+    else
+    {
+        printf("Not Divisible\n");
+        c = 0;
+    }
+    return 0;
+}
+
+1) Inputs: 4 2
+   Output: Divisible
+           2
+
+2) Inputs: 4 0
+   Output: Not Divisible
+           0
+
+Q1. WAP to find the largest between two numbers.
+
+
+NESTED IF...ELSE STATEMENT
+==========================
+if (test_expression_1)
+{
+    if (test_expression_2)
+    {
+        statements
+    }
+    else
+    {
+        S3
+    }
+}
+else
+{
+    if (test_exp_3)
+    {
+        S3
+    }
+    else
+    {
+        S4
+    }
+}
+
+Q2. WAP to find the maximum number between three numbers.
+
+
+IF-ELSE-IF LADDER STATEMENTS
+============================
+if (test_expression_1)
+{
+    statement_1
+}
+else if (test_expression_2)
+{
+    statement_2
+}
+else if (test_expression_3)
+{
+    statemnet_3
+}
+.
+.
+.
+else
+{
+    default statemnet
+}
+
+
+Q3. WAP to print the grade system
+
+Q4. WAP to convert an alphabet (entered from user) and display it. If it is in
+    uppercase, then display it.
+
+Q5. WAP to read an alphabet from the user, check whether it is a vowel or
+    consonant.
+
+Q6. WAP to check whether an input year is a leap year or not.
+
+Q7. WAP to obtain roots of a quadractic equation ax^2 + bx + c = 0 using if-else
+    statements.
