@@ -1,0 +1,119 @@
+// SWITCH STATEMENT //
+-====================-
+
+switch (expression)
+{
+    case value_1:
+        ...;  // Value block 1
+        ...;
+        ...;
+
+    case value_2:
+        ...;  // Value block 2
+        ...;
+        ...;
+
+    case value_2:
+        ...;  // Value block 3
+        ...;
+        ...;
+
+    default:
+        ...;  // Default block
+        ...;
+        ...;
+}
+
+
+Q1. WAP to print the grade system of KIIT
+
+
+// CONDITIONAL OPERATOR //
+-========================-
+(?:)
+
+Say you got:
+if (n < 0)
+    flag = 0;
+else
+    flag = 1;
+
+Using conditional operator, this can be written in a single line:
+flag = (n < 0) ? 0 : 1
+
+Example:
+scanf("%d", &x);
+int flag = (x < 0) ? 0 : 1
+printf("%d", flag);
+
+
+// GOTO STATEMENT /// Unconditional Branching //
+-==============================================-
+int main()
+{
+    int x;
+
+    read:
+    scanf("%d", &x);
+
+    int y = sqrt(x);
+    printf("%d\n", y);
+    goto read;
+
+    return 0;
+}
+
+Q2. WAP to find the square root of a number repeatedly
+
+Q3. WAP to input any two integers and provide a menu to the user to select any
+    of the options as:
+    Add
+    Subtract
+    Multuply &
+    Divide
+    and display the result accordingly
+
+
+// LOOPING //
+-===========-
+1. Setting and initializing of a control variable
+2. Execution of the statements in the loop
+3. Test for a specified value of the control variable
+4. Incrementing or updating the conrol variable
+
+There are three types of loop:
+1. while loop
+2. do while loop
+3. for loop
+
+There is 2 types of loop control, structures
+         |------>   Entry
+         |            |
+         |      test_condition? --false--|
+         |            |                  |
+         |           true                |
+         |            |                  |
+         |     body of loop              |
+         |            |                  |
+         |-----<------|                  |
+                       _________<________|
+                      |
+
+`while` and `for` are entry controlled loops, while
+`do` `while` loops are exit controlled loops.
+
+while loop
+----------
+condition variable initialization;
+while (test_expression)
+{
+    ...
+    ...
+    ... Update control variable
+}
+
+Q4. WAP to print all the natural numbers from 1 to 20
+
+Q5. EAP to print all numbers within a given range
+
+Q6. WAP to print the factorial of a given number
