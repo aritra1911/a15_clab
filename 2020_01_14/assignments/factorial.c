@@ -7,7 +7,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    while (n)
+    while (n > 0)
         factorial *= n--;
 
     printf("Factorial : %lu\n", factorial);
