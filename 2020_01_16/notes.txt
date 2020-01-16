@@ -1,0 +1,46 @@
+// do...while Statement //
+-========================-
+
+do
+{
+    ...
+    ...  code
+    ...
+} while (test_condition);
+
+Q1. WAP to add 1 to 10 using do...while loop
+
+Q2. WAP to calculate the sum of digits of a number
+
+
+// for Statement //
+-=================-
+
+for (initialization; test_expression; updating_control_variable)
+{
+    ...
+    ...
+    ...  some code
+}
+
+Example:
+--------
+sum = 0;
+for (int i=1; i<=10; i++)
+{
+    sum += i;
+}
+
+Q3. WAP to calculate the sum of digits using for loop
+
+Q4. WAP to find the reverse of a given number
+
+Q5. WAP to check if a number is palindrome or not
+
+Q6. WAP to check if a number is an Armstrong number
+
+Q7. WAP to find the factors of a given number
+
+Q8. WAP to check the given number is prime or not
+
+Q9. WAP to check the given number is a perfect number or not
