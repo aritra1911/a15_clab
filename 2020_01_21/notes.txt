@@ -1,0 +1,165 @@
+// NESTED LOOPS //
+-================-
+A loop within a loop.
+
+Example:
+--------
+for (int i=1; i<=5; i++)
+{
+    for (int j=1; j<=5; j++)
+    {
+        printf("%d, %d\n", i, j);
+    }
+}
+
+Output:
+-------
+1, 1
+1, 2
+1, 3
+1, 4
+1, 5
+2, 1
+2, 2
+2, 3
+2, 4
+2, 5
+3, 1
+3, 2
+3, 3
+3, 4
+3, 5
+4, 1
+4, 2
+4, 3
+4, 4
+4, 5
+5, 1
+5, 2
+5, 3
+5, 4
+5, 5
+
+
+Q1. WAP to print the following pattern
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+
+Q2. WAP to print the following pattern
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+
+Q3. WAP to print the following pattern
+        *
+       * *
+      * * *
+     * * * *
+    * * * * *
+
+Q4. WAP to print the following pattern
+    A
+    AB
+    ABC
+    ABCD
+    ABCDE
+
+Q5. WAP to print the following pattern
+    1
+    12
+    123
+    1234
+    12345
+
+Q6. WAP to print the following pattern
+        1
+       121
+      12321
+     1234321
+    123454321
+
+Q7. WAP to print the following pattern
+    1
+    01
+    101
+    0101
+    10101
+
+Q8. WAP to print the following pattern
+            *
+          * *
+        * * *
+      * * * *
+    * * * * *
+
+Q9. WAP to print the following pattern
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
+
+10. WAP to print the following pattern
+    * * * * *
+      * * * *
+        * * *
+          * *
+            *
+
+11. WAP to print the following pattern
+    *****
+     ***
+      *
+
+12. WAP to print the following pattern
+       *
+      ***
+     *****
+    *******
+
+
+// break AND continue STATEMENT IN LOOPS //
+-=========================================-
+break
+-----
+When break statement executes in the loop, the next statement will be executed
+that is just outside the loop.
+
+Example:
+--------
+for (i = 1; i <= 5; i++)
+{
+    printf("%d", i);
+    if (i == 3)
+        break;
+    printf("%d", i);
+}
+print ("Hello");
+
+Output:
+-------
+11223
+
+
+continue
+--------
+
+Example:
+--------
+for (i = 1; i <= 5; i++)
+{
+    printf("%d", i);
+    if (i == 3)
+        continue;
+    printf("%d", i);
+}
+print ("Hello");
+
+Output:
+-------
+112234455
