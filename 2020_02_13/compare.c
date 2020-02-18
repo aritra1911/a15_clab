@@ -9,15 +9,14 @@ int main() {
     printf("Enter another string: ");
     scanf("%s", str2);
 
-    int l, i, flag=0;
-
-    // calculate length of first string
-    for (l=0; str1[l] != '\0'; l++);
+    int i, flag=0;
 
     // compare each element
-    for (i=0; i<l; i++)
-        if (str1[i] != str2[i])
+    for (i=0; str1[i] != '\0' || str2[i] != '\0'; i++)
+        if (str1[i] != str2[i]) {
             flag = 1;
+            break;
+        }
 
     if (!flag)
         printf("Strings are same.\n");

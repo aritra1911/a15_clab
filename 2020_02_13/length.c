@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #define MAX 100
 
 int main() {
@@ -11,4 +12,6 @@ int main() {
     for (i=0; str[i] != '\0'; i++);
 
     printf("Length : %d\n", i);
+
+    printf("Length calculated by strlen() : %ld\n", strlen(str));
 }
